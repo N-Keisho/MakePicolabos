@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4ad9aca72d1af464a97b1e6b967df3e5
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - scoreManager: {instanceID: 0}
+  - effectNumber: {fileID: 4579466020921337264, guid: 17b4e975732afb04ca086005fffcca3b, type: 3}
+  - Canvas: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
