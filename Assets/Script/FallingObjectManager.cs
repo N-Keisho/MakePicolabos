@@ -5,6 +5,7 @@ using UnityEngine;
 public class FallingObjectManager : MonoBehaviour
 {
     public GameObject[] Objects;// 生成するオブジェクト
+    public GameObject Particle;
     public float interval  = 0.2f;
     public float sizeNum = 1;
     public float startTime = 3;
@@ -32,6 +33,15 @@ public class FallingObjectManager : MonoBehaviour
         col.radius /= 1.8f;
         col.height = col.radius;
         col.isTrigger = true;
+        if (obj.tag == "Box"){
+            var par = obj.transform.GetChild(0);
+            Component[] components = par.GetComponentsInChildren<Component>();
+            foreach (Component component in components)
+            {
+                Vector3 tmp = component.transform.localScale;
+                component.transform.localScale = tmp * (size / sizeNum) / 9;
+            }
+        }
         obj.AddComponent<DestroyObject>();
     }
 }

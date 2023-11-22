@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class TextUp : MonoBehaviour
 {
-    // Update is called once per frame
+
     void Update()
     {
-        Vector3 tmp = transform.position;
-        tmp.y += 2;
-        transform.position = tmp;    
+        Vector3 targetScreenPos = transform.position;
+        targetScreenPos.y += 200 * Time.deltaTime;
+        transform.position = targetScreenPos;    
     }
 }

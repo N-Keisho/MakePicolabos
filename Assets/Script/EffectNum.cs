@@ -11,6 +11,16 @@ public class EffectNum : MonoBehaviour
     public GameObject canvas;
     public GameObject camera;
 
+    private Color boxColor;
+    private Color rockColor;
+
+    void Start(){
+        string htmlString = "#C68E23";// 赤色のカラーコード
+        ColorUtility.TryParseHtmlString(htmlString, out boxColor);
+        htmlString = "#8C8991";
+        ColorUtility.TryParseHtmlString(htmlString, out rockColor);
+    }
+
     public void makeEffectNum(string text, Vector3 position, string color){
         Vector3 targetScreenPos = camera.GetComponent<Camera>().WorldToScreenPoint(position);
         targetScreenPos.y = 300;
@@ -18,8 +28,8 @@ public class EffectNum : MonoBehaviour
         // Etext.transform.parent = Canvas.transform;
         Etext.transform.SetParent(canvas.transform);
         Etext.text = text;
-        if (color == "yellow") Etext.color = Color.red;
-        else if(color == "blue") Etext.color = Color.blue;
+        if (color == "Box") Etext.color = boxColor;
+        else if(color == "Rock") Etext.color = rockColor;
         Destroy(Etext, 0.5f);
     }
 }

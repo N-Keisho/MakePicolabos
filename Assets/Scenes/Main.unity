@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657695, g: 0.49641138, b: 0.5748176, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657755, g: 0.4964127, b: 0.57481825, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -683,7 +683,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -876, y: -271}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 80, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &285096293
 MonoBehaviour:
@@ -705,7 +705,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 027f9234d35c19d47962502b5639a034, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4aa276ba7c4147d41b8e2dbcd4ba7841, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1617,6 +1617,7 @@ MonoBehaviour:
   - {fileID: 100000, guid: 84fa1372da0bc1849a3f058e3cad16eb, type: 3}
   - {fileID: 100000, guid: 23fc59362ba1e264eb5b636821ad929a, type: 3}
   - {fileID: 100000, guid: efbc7aaed080d31418251812fc4cfad8, type: 3}
+  Particle: {fileID: 1500378020736912, guid: 2547a66872ebe45408ace228820a79e1, type: 3}
   interval: 5
   sizeNum: 0.2
   startTime: 3.5
@@ -1671,7 +1672,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 0}
+  m_BackGroundColor: {r: 0.9622642, g: 0.9622642, b: 0.9622642, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -2117,13 +2118,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Objects:
-  - {fileID: 6847577443203509376, guid: 0480acdead0d2b14f92e96430035f69d, type: 3}
   - {fileID: 2781302511550827743, guid: f5839d9bfbf48294183045898e84baef, type: 3}
   - {fileID: 6750876609633526164, guid: f978660135d6dc04d8b6854200a1e11e, type: 3}
   - {fileID: 1379317579595585866, guid: 9a12d529474d3754f9eabe12716fa4df, type: 3}
   - {fileID: 3035193147819358643, guid: f60a97c1e377840429907299caea97ba, type: 3}
   - {fileID: 9089791849734774356, guid: 655575be29e67494fb2edd3894d1dae1, type: 3}
   - {fileID: 2896490875517787916, guid: be9c62676710d654e990d83c09d91e80, type: 3}
+  Particle: {fileID: 0}
   interval: 1
   sizeNum: 8
   startTime: 3
@@ -2694,6 +2695,7 @@ MonoBehaviour:
   - {fileID: 1204388543534328, guid: 678004df39bc84cb7ab05ea3306e7d6a, type: 3}
   - {fileID: 1662342756697416, guid: 7b826cb88be1748c79a6a04afd305729, type: 3}
   - {fileID: 1690718150433878, guid: 99d4c8645da7e43e8ac08906d7ec2948, type: 3}
+  Particle: {fileID: 0}
   interval: 0.5
   sizeNum: 1
   startTime: 3
