@@ -5,7 +5,6 @@ using UnityEngine;
 public class FallingObjectManager : MonoBehaviour
 {
     public GameObject[] Objects;// 生成するオブジェクト
-    public GameObject Particle;
     public float interval  = 0.2f;
     public float sizeNum = 1;
     public float startTime = 3;
