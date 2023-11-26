@@ -8,3 +8,6 @@
 
 ### Play
 ![PlayImage](https://github.com/N-Keisho/MakePicolabos/assets/133760530/6c833e38-f706-4bcd-b217-cef8d2dc1df7)
+
+### Result
+![ResultImage]()
