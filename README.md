@@ -2,6 +2,11 @@
 スペースキーのみで操作が可能な簡単ミニゲームです。
 [UnityRoom](https://unityroom.com/games/makepicolabos)で実際に遊ぶことができます。
 
+## 落下物
+- 段ボール ... 取得すると1000点＋制限時間5秒延長！1個で1Picolaboになります。
+- 文房具 ... 取得すると10点。10個集めると1Picolaboになります。
+- 隕石 ... 取得すると-50点+制限時間5秒減少。良いことは一つもありません。
+
 ## Images
 ### Title
 ![TitleImage](https://github.com/N-Keisho/MakePicolabos/assets/133760530/840d46d8-ab82-406c-a2bc-bf21a4dfd6fb)
