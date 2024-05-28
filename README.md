@@ -1,7 +1,9 @@
 # MakePicolabos
 スペースキーのみで操作が可能な簡単ミニゲームです。
 
-[UnityRoom](https://unityroom.com/games/makepicolabos)で実際に遊ぶことができます。
+[UnityRoom](https://unityroom.com/games/makepicolabos)で遊ぶことができます。
+
+学園祭に展示するため，1日で作成しました．
 
 ## 落下物
 - 段ボール ... 取得すると1000点＋制限時間5秒延長！1個で1Picolaboになります。
